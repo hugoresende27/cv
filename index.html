@@ -97,44 +97,26 @@
                     <div class=" bg-secondary rounded p-4 col-sm-12 text-center ">
 
 
-                <h6 class="mb-4">About Me</h6>
+                        <h6 class="mb-4">About Me</h6>
 
-                        <h1><span id="texto" style="font-family: 'Lacquer', cursive;"></span></h1>
+                        <h1><span id="texto" style="font-family: 'Courier Prime', monospace;"></span></h1>
 
-                        <div id="content"
+                        <div id="content"></div>
 
-
-                        ></div>
-
-                        <script src="https://unpkg.com/vue@2"></script>
-                        <script>
-                            new Vue({
-                                data: () => ({ message: ' ' ,
-                                                skills : [' PHP ', ' SQL ',' Laravel ', ' JS ', ' HTML5 ' ],
-                                }),
-
-
-                                template: `
-                                                    <div>
-                                                      <h1  >Developer on: {{message}} </h1>
-                                                      <button  class="btn btn-lg btn-primary m-2" v-on:click="message += skills">Skills</button>
-
-                                                    </div>
-                                                    `
-                            }).$mount('#content');
-                        </script>
+                        <div class="mt-5">
+                            <input type="button" class="btn-lg btn-outline-primary" onclick="imagefun()" value="Skills">
+                        </div>
 
 
 
+                        <div id="imageDiv">
 
 
 
-                    </div>
-
-                <br><br>
-                    <div class="   col-sm-5 text-center ">
+                        </div>
 
 
+                        <div class=" text-center " id="logosCard">
 
                             <img src="img/logos/windows.png" alt="" class=" myLogo">
                             <img src="img/logos/linux.jpeg" alt="" class=" myLogo">
@@ -142,11 +124,18 @@
                             <img src="img/logos/php.png" alt=""  class=" myLogo">
                             <img src="img/logos/sql.png" alt=""class=" myLogo">
                             <img src="img/logos/laravel.jpeg" alt="" class=" myLogo">
+                            <img src="img/logos/postman.png" alt="" class=" myLogo">
+
+
+                        </div>
 
 
 
 
                     </div>
+
+
+
 
 
 
@@ -198,6 +187,7 @@
     <script src="js/main.js"></script>
 
     <script src="js/animatedText.js"></script>
+    <script src="js/myScripts.js"></script>
 </body>
 
 </html>

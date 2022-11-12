@@ -34,6 +34,7 @@
 
 
     // Progress Bar
+
     $('.pg-bar').waypoint(function () {
         $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -65,6 +66,7 @@
 
 
     // Worldwide Sales Chart
+
     var ctx1 = $("#worldwide-sales").get(0).getContext("2d");
     var myChart1 = new Chart(ctx1, {
         type: "bar",
@@ -91,6 +93,8 @@
             responsive: true
         }
     });
+
+
 
 
     // Salse & Revenue Chart

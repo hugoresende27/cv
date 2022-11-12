@@ -132,7 +132,25 @@
                 <br><br>
                     <div class="   col-sm-5 text-center ">
 
+                        <div>
+                            <h2>Change image onClick event here...</h2>
+                            <img src="img/logos/laravel.jpeg" id="getImage">
 
+                        </div>
+                        <div>
+                            <input type="button" onclick="imagefun()" value="Change Image">
+                        </div>
+                        <script>
+                            function imagefun() {
+                                var Image_Id = document.getElementById('getImage');
+                                if (Image_Id.src.match("img/logos/laravel.jpeg")) {
+                                    Image_Id.src = "img/logos/html.jpeg";
+                                }
+                                else {
+                                    Image_Id.src = "img/logos/linux.jpeg";
+                                }
+                            }
+                        </script>
 
 
                     </div>

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap'); /*style="font-family: 'Twinkle Star', cursive"*/
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); /*font-family: 'Lacquer', cursive;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); /*font-family: 'Courier Prime', monospace;*/
 .myLabel:hover{
     cursor: default !important;
     background-color: #000 !important;
