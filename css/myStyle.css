@@ -1,0 +1,49 @@
+.myLabel:hover{
+    cursor: default !important;
+    background-color: #000 !important;
+    color: red !important;
+    border:  0 !important;
+}
+
+.myLabel{
+    border: 0 !important;
+
+}
+
+.myLabelSpecial:hover{
+    cursor: pointer !important;
+    background-color: #000 !important;
+    color: red !important;
+    border:  0 !important;
+}
+
+.myLogo{
+    width:150px;
+    height:150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+    padding: 10px;
+}
+
+
+/* ///////////////////////////////////////// RESPONSIVE ///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 80rem) {
+    .myLabel {
+        font-size: 0.9rem;
+    }
+
+    *{
+        font-size: 0.9rem;
+    }
+
+    .myLogo{
+
+        margin-left: auto;
+    }
+
+}
