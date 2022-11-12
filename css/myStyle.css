@@ -32,6 +32,16 @@
     padding: 10px;
 }
 
+.myBtn{
+    width: 200px;
+    height: 100px;
+}
+
+.myBtn:hover{
+    cursor: pointer;
+    transform: scale(1.6);
+}
+
 /*///////////////////////////////////////////////////////////////////////////*/
 /*TEXTO ANIMADO DE APRESENTAÇÃO*/
 #texto {
@@ -44,16 +54,20 @@
 
 @media screen and (max-width: 80rem) {
     .myLabel {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     *{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .myLogo{
 
         margin-left: auto;
+    }
+
+    .myCard{
+        margin-top:20px;
     }
 
 }

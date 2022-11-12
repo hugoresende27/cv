@@ -37,7 +37,11 @@
 
     }
 
-    document.getElementById('imageDiv').appendChild(img);
+
+    // $("#parent-div").prepend(html);
+
+    // document.getElementById('imageDiv').appendChild(img);
+    document.getElementById('imageDiv').prepend(img);
 
 
 
