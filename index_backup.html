@@ -94,35 +94,33 @@
 
             <div class="row m-3">
 
-                    <div class=" bg-secondary rounded p-4 col-sm-12 text-center ">
+                    <div class=" bg-secondary rounded p-4 col-sm-6 text-center ">
 
 
                 <h6 class="mb-4">About Me</h6>
 
-                        <h1><span id="texto" style="font-family: 'Lacquer', cursive;"></span></h1>
-
-                        <div id="content"
 
 
-                        ></div>
+
+
+
+                        <div id="content"></div>
 
                         <script src="https://unpkg.com/vue@2"></script>
                         <script>
                             new Vue({
-                                data: () => ({ message: ' ' ,
-                                                skills : [' PHP ', ' SQL ',' Laravel ', ' JS ', ' HTML5 ' ],
-                                }),
-
-
+                                data: () => ({ message: 'Row' }),
                                 template: `
                                                     <div>
-                                                      <h1  >Developer on: {{message}} </h1>
-                                                      <button  class="btn btn-lg btn-primary m-2" v-on:click="message += skills">Skills</button>
-
+                                                      <h1>{{message}} your boat</h1>
+                                                      <button v-on:click="message += ' row'">Add</button>
                                                     </div>
                                                     `
                             }).$mount('#content');
                         </script>
+                        <script src="https://unpkg.com/vue@3"></script>
+
+
 
 
 
@@ -133,15 +131,6 @@
 
                 <br><br>
                     <div class="   col-sm-5 text-center ">
-
-
-
-                            <img src="img/logos/windows.png" alt="" class=" myLogo">
-                            <img src="img/logos/linux.jpeg" alt="" class=" myLogo">
-                            <img src="img/logos/html.jpeg" alt="" class=" myLogo">
-                            <img src="img/logos/php.png" alt=""  class=" myLogo">
-                            <img src="img/logos/sql.png" alt=""class=" myLogo">
-                            <img src="img/logos/laravel.jpeg" alt="" class=" myLogo">
 
 
 
@@ -192,12 +181,9 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <script src="https://unpkg.com/vue@3"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-    <script src="js/animatedText.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
 </body>
 
 </html>
