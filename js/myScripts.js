@@ -10,10 +10,10 @@
     var logoSrcList = images.querySelectorAll('.myLogo');
 
 
-    if (logoSrcList.length == 7) return;
+    if (logoSrcList.length == 10) return;
 
     var img = document.createElement('img')
-    img.src = 'img/logos/windows.png';
+    img.src = 'img/logos/windows.jpeg';
     img.className += "myLogo";
 
     for (let i = 0; i < logoSrcList.length; i++) {
@@ -26,11 +26,17 @@
             break;
             case 2:  img.src = 'img/logos/sql.png';
             break;
-            case 3:  img.src = 'img/logos/html.jpeg';
+            case 3:  img.src = 'img/logos/mysql.png';
             break;
-            case 4:  img.src = 'img/logos/laravel.jpeg';
+            case 4:  img.src = 'img/logos/html.png';
             break;
-            case 5:  img.src = 'img/logos/postman.png';
+            case 5:  img.src = 'img/logos/js.png';
+            break;
+            case 6:  img.src = 'img/logos/laravel.jpeg';
+            break;
+            case 7:  img.src = 'img/logos/postman.png';
+            break;
+            case 8:  img.src = 'img/logos/git.jpeg';
             break;
 
         }
