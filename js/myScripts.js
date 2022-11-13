@@ -10,7 +10,7 @@
     var logoSrcList = images.querySelectorAll('.myLogo');
 
 
-    if (logoSrcList.length == 10) return;
+    if (logoSrcList.length == 11) return;
 
     var img = document.createElement('img')
     img.src = 'img/logos/windows.jpeg';
@@ -36,8 +36,10 @@
             break;
             case 7:  img.src = 'img/logos/postman.png';
             break;
-            case 8:  img.src = 'img/logos/git.jpeg';
+            case 8:  img.src = 'img/logos/api.png';
             break;
+            case 9:  img.src = 'img/logos/git.jpeg';
+                break;
 
         }
 
