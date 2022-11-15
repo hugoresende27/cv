@@ -44,6 +44,12 @@
     transform: scale(1.6);
 }
 
+.myPhoto{
+    width: 150px;
+    height: 130px;
+
+}
+
 /*///////////////////////////////////////////////////////////////////////////*/
 /*TEXTO ANIMADO DE APRESENTAÇÃO*/
 #texto {
@@ -74,6 +80,17 @@
 
     .myNav{
         visibility: hidden;
+    }
+
+    .myPhoto{
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+    }
+
+    .myMainText{
+        /*position: absolute;*/
+
     }
 
 }

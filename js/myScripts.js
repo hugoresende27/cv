@@ -10,7 +10,11 @@
     var logoSrcList = images.querySelectorAll('.myLogo');
 
 
-    if (logoSrcList.length == 11) return;
+    if (logoSrcList.length == 11)
+    {
+        document.getElementById('goBtn').hidden = true;
+        return;
+    }
 
     var img = document.createElement('img')
     img.src = 'img/logos/windows.jpeg';
@@ -39,7 +43,7 @@
             case 8:  img.src = 'img/logos/api.png';
             break;
             case 9:  img.src = 'img/logos/git.jpeg';
-                break;
+            break;
 
         }
 
