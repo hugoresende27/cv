@@ -72,4 +72,8 @@
         margin-top:20px;
     }
 
+    .myNav{
+        visibility: hidden;
+    }
+
 }
