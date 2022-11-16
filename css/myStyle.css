@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); /*font-family: 'Courier Prime', monospace;*/
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap'); /*font-family: 'Sono', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Ubuntu&display=swap');/*    font-family: 'Fragment Mono', monospace; font-family: 'Ubuntu', sans-serif;l*/
+
+*{
+    font-family: 'Fragment Mono', monospace;
+}
+
 .myLabel:hover{
     cursor: default !important;
     background-color: #000 !important;
@@ -14,6 +20,11 @@
     border: 0 !important;
 
 }
+
+.myText{
+    font-family: 'Fragment Mono', monospace;
+}
+
 
 .myLabelSpecial:hover{
     cursor: pointer !important;
@@ -35,14 +46,23 @@
 }
 
 .myBtn{
-    width: 200px;
-    height: 100px;
+    /*background-image: url('../img/buttons/heroBtn.png');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 75px;
+
+
 }
 
 .myBtn:hover{
+    /*background-image: url('../img/buttons/stop.jpeg');*/
     cursor: pointer;
-    transform: scale(1.6);
+    transform: scale(1.3);
+    width: 100px;
+    height: 75px;
 }
+
 
 .myPhoto{
     width: 150px;
@@ -92,5 +112,16 @@
         /*position: absolute;*/
 
     }
+
+    .myLabel{
+        position: relative;
+        /*left: -20px;*/
+        min-width: 100%;
+    }
+
+    .myUpBtn{
+        visibility: hidden;
+    }
+
 
 }
